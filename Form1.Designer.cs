@@ -34,6 +34,7 @@
             label1 = new Label();
             button3 = new Button();
             button4 = new Button();
+            textBox1 = new TextBox();
             SuspendLayout();
             // 
             // button1
@@ -89,11 +90,19 @@
             button4.Text = "button4";
             button4.UseVisualStyleBackColor = true;
             // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(462, 59);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(183, 23);
+            textBox1.TabIndex = 6;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(textBox1);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(label1);
@@ -114,5 +123,6 @@
         private Label label1;
         private Button button3;
         private Button button4;
+        private TextBox textBox1;
     }
 }
